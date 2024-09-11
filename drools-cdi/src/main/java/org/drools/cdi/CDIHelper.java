@@ -81,6 +81,7 @@ public class CDIHelper {
                 beans = beanManager.getBeans( beanType, annotation );
             }
 
+            
             Bean<T> bean = (Bean<T>) beans.iterator().next();
             return bean.create( beanManager.createCreationalContext(bean) );
         }
