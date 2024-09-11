@@ -97,6 +97,8 @@ public class BayesBeliefSystem<M extends BayesHardEvidence<M>> implements Belief
 //        if ( !wasUndecided && !beliefSet.isDecided() ) {
 //            // was decided before, still decided, so do nothing.
 //            return;
+
+        
 //        }
 
         PropertyReference propRef = (PropertyReference) payload;
